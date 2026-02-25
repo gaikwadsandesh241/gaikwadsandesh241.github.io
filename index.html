@@ -2,76 +2,188 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Electronics Engineering Student Portfolio</title>
+<title>Electronics Engineering Portfolio</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
 <style>
 body {
-  font-family: Arial, sans-serif;
-  margin: 40px;
-  background: #f4f6f8;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f2f4f8;
+  color: #333;
 }
-h1 {
-  color: #0b3c5d;
+
+/* Header */
+.header {
+  background: #0b3c5d;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
 }
-h2 {
-  color: #1d2731;
-  border-bottom: 2px solid #0b3c5d;
+
+.header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid white;
+  object-fit: cover;
 }
-section {
+
+.header h1 {
+  margin: 15px 0 5px;
+  font-size: 32px;
+}
+
+.header p {
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Sections */
+.section {
   background: white;
-  padding: 15px;
+  padding: 25px;
   margin-bottom: 20px;
-  border-radius: 8px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
-ul {
+
+.section h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #0b3c5d;
+  border-bottom: 2px solid #0b3c5d;
+  display: inline-block;
+}
+
+.section p, li {
+  font-size: 16px;
   line-height: 1.8;
+}
+
+/* Skills */
+.skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 10px;
+}
+
+.skill-box {
+  background: #eef3f7;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+/* Projects */
+.project {
+  margin-bottom: 15px;
+}
+
+.project h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #666;
 }
 </style>
 </head>
 
 <body>
 
-<h1>Your Name</h1>
-<p><b>Electronics Engineering Student</b></p>
+<!-- HEADER -->
+<div class="header">
+  <img src="profile.jpg" alt="Profile Photo">
+  <h1>Your Full Name</h1>
+  <p>Electronics Engineering Student | Embedded Systems</p>
+</div>
 
-<section>
-<h2>About Me</h2>
-<p>
-I am an Electronics Engineering student with hands-on experience in embedded systems, sensors, and circuit design.
-</p>
-</section>
+<div class="container">
 
-<section>
-<h2>Technical Skills</h2>
-<ul>
-<li>Analog & Digital Electronics</li>
-<li>Arduino, Embedded C</li>
-<li>Sensors & Actuators</li>
-<li>MATLAB, Proteus, Tinkercad</li>
-<li>Basic PCB Design</li>
-</ul>
-</section>
+<!-- ABOUT -->
+<div class="section">
+  <h2>About Me</h2>
+  <p>
+    I am an Electronics Engineering student with strong interest in embedded systems,
+    sensors, and real-world circuit design. I enjoy building practical projects using
+    microcontrollers and learning new technologies.
+  </p>
+</div>
 
-<section>
-<h2>Projects</h2>
-<ul>
-<li><b>Hydrogen Gas Sensor Alarm System</b> – Detects gas leakage and triggers alarm.</li>
-<li><b>SDR-Based Spectrum Scanner</b> – RF signal analysis using RTL-SDR and MATLAB.</li>
-</ul>
-</section>
+<!-- SKILLS -->
+<div class="section">
+  <h2>Technical Skills</h2>
+  <div class="skills">
+    <div class="skill-box">Analog & Digital Electronics</div>
+    <div class="skill-box">Arduino / Embedded C</div>
+    <div class="skill-box">Sensors & Actuators</div>
+    <div class="skill-box">I2C, SPI, UART</div>
+    <div class="skill-box">MATLAB, Proteus, Tinkercad</div>
+    <div class="skill-box">Basic PCB Design</div>
+  </div>
+</div>
 
-<section>
-<h2>Education</h2>
-<p>B.Tech in Electronics Engineering<br>
-Your College Name</p>
-</section>
+<!-- PROJECTS -->
+<div class="section">
+  <h2>Projects</h2>
 
-<section>
-<h2>Contact</h2>
-<p>
-Email: yourmail@gmail.com <br>
-GitHub: https://github.com/yourusername
-</p>
-</section>
+  <div class="project">
+    <h3>Hydrogen Gas Sensor Alarm System</h3>
+    <p>
+      Designed a gas leakage detection system using sensors and Arduino.
+      The system displays gas levels and triggers an alarm when the threshold is exceeded.
+    </p>
+  </div>
+
+  <div class="project">
+    <h3>SDR-Based Spectrum Scanner</h3>
+    <p>
+      Implemented RF spectrum scanning using RTL-SDR and MATLAB for signal
+      visualization and analysis.
+    </p>
+  </div>
+
+</div>
+
+<!-- EDUCATION -->
+<div class="section">
+  <h2>Education</h2>
+  <p>
+    <b>B.Tech – Electronics Engineering</b><br>
+    Your College Name<br>
+    Year: 20XX – Present
+  </p>
+</div>
+
+<!-- CONTACT -->
+<div class="section">
+  <h2>Contact</h2>
+  <p>
+    📧 Email: yourmail@gmail.com<br>
+    💻 GitHub: https://github.com/yourusername
+  </p>
+</div>
+
+</div>
+
+<div class="footer">
+  © 2026 Your Name | Hosted on :contentReference[oaicite:0]{index=0}
+</div>
 
 </body>
 </html>
