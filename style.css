@@ -89,3 +89,20 @@ nav a {
     border: none;
     font-weight: bold;
 }
+
+h1 {
+  color: #0b3c5d;
+}
+h2 {
+  color: #1d2731;
+  border-bottom: 2px solid #0b3c5d;
+}
+section {
+  background: white;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+ul {
+  line-height: 1.8;
+}
