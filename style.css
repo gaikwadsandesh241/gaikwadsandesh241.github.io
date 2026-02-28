@@ -1,74 +1,87 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', sans-serif;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
 body {
-    background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+    background: #0f2027;
     color: white;
-    padding: 20px;
-}
-
-header {
-    text-align: center;
-    margin-bottom: 20px;
 }
 
 nav {
-    text-align: center;
-    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background: #111;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
 }
 
 nav a {
     color: #00ffe0;
-    margin: 0 15px;
     text-decoration: none;
-    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #00ffe0;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.page {
+    padding: 40px;
 }
 
 .card {
     background: rgba(255,255,255,0.1);
     padding: 20px;
-    margin-bottom: 25px;
-    border-radius: 12px;
-    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    margin-top: 20px;
 }
 
-.skill {
-    margin: 15px 0;
+.wrap-flex {
+    display: flex;
+    gap: 30px;
 }
 
-.bar {
-    background: #333;
-    height: 8px;
-    border-radius: 5px;
+.wrap-flex img {
+    width: 200px;
+    border-radius: 10px;
 }
 
-.fill {
+.contact-form {
+    max-width: 400px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
     background: #00ffe0;
-    height: 8px;
-    border-radius: 5px;
-}
-
-.project {
-    margin-top: 15px;
-}
-
-.btn {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px 15px;
-    background: #00ffe0;
-    color: black;
-    border-radius: 5px;
-    text-decoration: none;
+    border: none;
     font-weight: bold;
-}
-
-footer {
-    text-align: center;
-    margin-top: 40px;
-    opacity: 0.7;
 }
