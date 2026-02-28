@@ -36,9 +36,30 @@ nav a {
 }
 
 .hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding: 120px 20px;
 }
+
+.hero h1 {
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.hero p {
+    font-size: 2rem;
+    opacity: 0.9;
+}
+
+.hero .btn {
+    margin-top: 20px;
+    font-size: 1.3rem;
+    padding: 15px 35px;
+}
+
 
 .btn {
     display: inline-block;
