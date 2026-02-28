@@ -144,3 +144,17 @@ nav a {
     text-align: center;
 }
 
+#about-section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* default position */
+    padding-top: 120px;
+    transition: all 0.5s ease;
+}
+
+#about-section.centered {
+    align-items: center;   /* vertical center */
+    padding-top: 0;
+}
+
