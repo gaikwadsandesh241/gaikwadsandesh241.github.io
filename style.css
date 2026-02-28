@@ -6,9 +6,11 @@
 }
 
 body {
-    background: #0f2027;
+    background: url("bg.jpg") no-repeat center center fixed;
+    background-size: cover;
     color: white;
 }
+
 
 nav {
     display: flex;
