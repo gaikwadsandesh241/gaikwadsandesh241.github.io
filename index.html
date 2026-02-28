@@ -1,173 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<title>Electronics Engineering Portfolio</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+<title>Portfolio</title>
 
 <style>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  font-family: 'Montserrat', sans-serif;
-  background-color: #111;
-  color: #eee;
-  line-height: 1.7;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background:
+    linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+    url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
 }
-
-/* HERO SECTION */
-.hero {
-  height: 100vh;
-  background: linear-gradient(
-    rgba(0,0,0,0.65),
-    rgba(0,0,0,0.65)
-  ), url('hero.jpg') center/cover no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-.hero h1 {
-  font-size: 56px;
-  letter-spacing: 2px;
-  font-weight: 700;
-}
-
-.hero p {
-  font-size: 20px;
-  margin-top: 15px;
-  font-weight: 300;
-}
-
-/* SECTION */
-.section {
-  max-width: 900px;
-  margin: auto;
-  padding: 80px 20px;
-}
-
-.section h2 {
-  font-size: 32px;
-  margin-bottom: 20px;
-  font-weight: 600;
-  border-bottom: 2px solid #666;
-  display: inline-block;
-}
-
-.section p {
-  font-size: 17px;
-  color: #ccc;
-}
-
-/* SKILLS */
-.skills {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 15px;
-  margin-top: 30px;
-}
-
-.skill {
-  border: 1px solid #333;
-  padding: 15px;
-  text-align: center;
-  font-size: 15px;
-}
-
-/* PROJECTS */
-.project {
-  margin-top: 30px;
-}
-
-.project h3 {
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 8px;
-}
-
-/* FOOTER */
-.footer {
-  text-align: center;
-  padding: 30px;
-  font-size: 14px;
-  color: #777;
-  border-top: 1px solid #333;
+.content {
+  padding: 60px;
 }
 </style>
 </head>
 
 <body>
 
-<!-- HERO -->
-<section class="hero">
-  <div>
-    <h1>Sandesh Gaikwad</h1>
-    <p>Electronics Engineering Student</p>
-  </div>
-</section>
-
-<!-- ABOUT -->
-<section class="section">
-  <h2>About</h2>
-  <p>
-   Aspiring Electronics and Telecommunication Engineer with experience in PCB and circuit design, 
-   embedded systems, and programming using C, Java, and Python. I have worked on multidisciplinary
-   projects involving IoT, power electronics, and product design. I am motivated to solve real-world 
-   problems through technology and seek opportunities to grow as a design and development engineer.
-  </p>
-</section>
-
-<!-- SKILLS -->
-<section class="section">
-  <h2>Skills</h2>
-  <div class="skills">
-    <div class="skill">Analog & Digital Electronics</div>
-    <div class="skill">Arduino / Embedded C</div>
-    <div class="skill">Sensors & Actuators</div>
-    <div class="skill">I2C • SPI • UART</div>
-    <div class="skill">MATLAB • Proteus</div>
-    <div class="skill">Basic PCB Design</div>
-  </div>
-</section>
-
-<!-- PROJECTS -->
-<section class="section">
-  <h2>Projects</h2>
-
-  <div class="project">
-    <h3>Hydrogen Gas Sensor Alarm System</h3>
-    <p>
-      Designed a real-time gas leakage detection system using Arduino and sensors
-      with alarm and display output.
-    </p>
-  </div>
-
-  <div class="project">
-    <h3>SDR-Based Spectrum Scanner</h3>
-    <p>
-      RF spectrum analysis using RTL-SDR and MATLAB for signal visualization.
-    </p>
-  </div>
-</section>
-
-<!-- CONTACT -->
-<section class="section">
-  <h2>Contact</h2>
-  <p>
-    Email: yourmail@gmail.com<br>
-    GitHub: https://github.com/yourusername
-  </p>
-</section>
-
-<!-- FOOTER -->
-<div class="footer">
-  © 2026 Your Name · Hosted on GitHub Pages
+<div class="content">
+  <h1>Your Name</h1>
+  <p>Electronics Engineering Student</p>
 </div>
 
 </body>
