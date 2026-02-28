@@ -1,32 +1,83 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Portfolio</title>
-
-<style>
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background:
-    linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
-    url("background.jpg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  color: white;
-}
-.content {
-  padding: 60px;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandesh | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<div class="content">
-  <h1>Your Name</h1>
-  <p>Electronics Engineering Student</p>
-</div>
+<header>
+    <h1>Sandesh</h1>
+    <p>Software Developer | Design Engineer</p>
+</header>
 
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about" class="card">
+    <h2>About Me</h2>
+    <p>
+        Passionate engineering student with strong interest in software development,
+        embedded systems, and innovative design. Skilled in building real-world
+        applications and problem-solving solutions.
+    </p>
+</section>
+
+<section id="skills" class="card">
+    <h2>Skills</h2>
+
+    <div class="skill">
+        <span>HTML / CSS</span>
+        <div class="bar"><div class="fill" style="width:90%"></div></div>
+    </div>
+
+    <div class="skill">
+        <span>JavaScript</span>
+        <div class="bar"><div class="fill" style="width:80%"></div></div>
+    </div>
+
+    <div class="skill">
+        <span>PHP / MySQL</span>
+        <div class="bar"><div class="fill" style="width:75%"></div></div>
+    </div>
+
+    <div class="skill">
+        <span>Arduino / IoT</span>
+        <div class="bar"><div class="fill" style="width:70%"></div></div>
+    </div>
+</section>
+
+<section id="projects" class="card">
+    <h2>Projects</h2>
+
+    <div class="project">
+        <h3>Billing & Invoice System</h3>
+        <p>Web-based system for quotation, PO and GST invoice generation.</p>
+    </div>
+
+    <div class="project">
+        <h3>RTL-SDR Spectrum Analyzer</h3>
+        <p>SDR-based signal scanning and GSM signal analysis project.</p>
+    </div>
+</section>
+
+<section id="contact" class="card">
+    <h2>Contact</h2>
+    <p>Email: sandesh@email.com</p>
+    <p>GitHub: github.com/sandesh</p>
+    <a class="btn" href="resume.pdf" download>Download Resume</a>
+</section>
+
+<footer>
+    <p>© 2026 Sandesh | Portfolio</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
