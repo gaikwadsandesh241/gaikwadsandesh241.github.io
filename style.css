@@ -137,3 +137,10 @@ nav a {
 
     color: white;
 }
+
+.glass-text {
+    font-size: 2rem;   /* ~4× normal paragraph */
+    line-height: 1.6;
+    text-align: center;
+}
+
