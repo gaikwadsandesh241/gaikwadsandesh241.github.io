@@ -38,6 +38,7 @@ nav a {
 .hero {
     text-align: center;
     padding: 120px 20px;
+    color: white;
 }
 
 .btn {
@@ -45,7 +46,7 @@ nav a {
     margin-top: 20px;
     padding: 10px 20px;
     background: #00ffe0;
-    color: black;
+    color: white;
     border-radius: 5px;
     text-decoration: none;
 }
