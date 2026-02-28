@@ -64,6 +64,11 @@ nav a {
     background: transparent;
 }
 
+.hero-text {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+
 
 .btn {
     display: inline-block;
